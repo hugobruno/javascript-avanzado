@@ -1,4 +1,4 @@
-const edad = parseInt(prompt ("Ingresa tu edad"));
+/* const edad = parseInt(prompt ("Ingresa tu edad"));
 let mensaje = "";
 
 if(edad === 18){
@@ -23,4 +23,24 @@ switch (edad){
 
 }
 
-document.write('<p>${mensaje}</p>')
+document.write(`<p>${mensaje}</p>`); */
+
+const nombre = parseInt(prompt ("Ingresa tu nombre"));
+let mensaje = "";
+
+switch (nombre){
+    case 'Carlos':
+        mensaje= "Administrador";
+        break;
+
+    case 'Bruno':
+        mensaje= "Usuario";
+        break;
+
+    default:
+        mensaje = "No tiene permitido usar el sistema";
+        break;
+
+}
+
+document.write(`<p>${mensaje}</p>`); 
