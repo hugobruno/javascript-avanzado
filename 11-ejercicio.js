@@ -8,7 +8,7 @@ if (numero<0) break;
     conteo += numero;
 }
 */
-
+//PROMEDIO DE CONJUNTO DE NÚMEROS HASTA UN NEGATIVO INGRESADO
 
 let sum=0, prom, cont=0, num;
 num = parseInt(prompt("Ingresa numero"));

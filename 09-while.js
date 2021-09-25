@@ -1,3 +1,5 @@
+//VALIDACIÓN NÚMERO SECRETO
+
 let num1 = parseInt(prompt('Ingresa numero secreto'));
 const num_secreto = 23 ;
 let intentos =1;
